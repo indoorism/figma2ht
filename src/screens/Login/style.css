@@ -1,0 +1,117 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .div-2 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.login .status-bar-2 {
+  left: -7px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.login .text-field-instance {
+  left: 51px !important;
+  position: absolute !important;
+  top: 344px !important;
+}
+
+.login .text-field-2 {
+  left: 51px !important;
+  position: absolute !important;
+  top: 443px !important;
+}
+
+.login .top-app-bar-instance {
+  left: -8px !important;
+  position: absolute !important;
+  top: 44px !important;
+  width: 375px !important;
+}
+
+.login .group {
+  height: 200px;
+  left: 80px;
+  position: absolute;
+  top: 101px;
+  width: 202px;
+}
+
+.login .overlap {
+  border-radius: 8px;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.login .rectangle-2 {
+  background-color: #ecd50633;
+  border-radius: 8px;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.login .h-1 {
+  color: #000000;
+  font-family: "Roboto", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 180px;
+}
+
+.login .rectangle-3 {
+  height: 50px;
+  left: 80px;
+  position: absolute;
+  top: 651px;
+  width: 50px;
+}
+
+.login .rectangle-4 {
+  height: 50px;
+  left: 229px;
+  object-fit: cover;
+  position: absolute;
+  top: 651px;
+  width: 50px;
+}
+
+.login .text-wrapper-2 {
+  color: #6d8234;
+  font-family: "Roboto", Helvetica;
+  font-size: 22px;
+  font-weight: 800;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 577px;
+  width: 310px;
+}
+
+.login .button-instance {
+  left: 220px !important;
+  position: absolute !important;
+  top: 519px !important;
+}

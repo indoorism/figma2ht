@@ -1,0 +1,189 @@
+.icon-button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+}
+
+.icon-button .container {
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-button .icons-settings-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-button .icons-settings {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}
+
+.icon-button.state-12-enabled.configuration-3-filled {
+  padding: 4px;
+}
+
+.icon-button.configuration-3-outlined.state-12-disabled {
+  padding: 8px;
+}
+
+.icon-button.state-12-disabled.configuration-3-standard {
+  opacity: 0.38;
+}
+
+.icon-button.state-12-enabled.configuration-3-outlined {
+  padding: 8px;
+}
+
+.icon-button.configuration-3-filled.state-12-disabled {
+  padding: 8px;
+}
+
+.icon-button.configuration-3-tonal.state-12-disabled {
+  padding: 8px;
+}
+
+.icon-button.configuration-3-outlined .container {
+  border: 1px solid;
+}
+
+.icon-button.state-12-enabled.configuration-3-filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.configuration-3-tonal.state-12-focused .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.configuration-3-outlined.state-12-disabled .container {
+  border-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.configuration-3-tonal.state-12-pressed .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.configuration-3-tonal.state-12-hovered .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.configuration-3-outlined.state-12-hovered .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.state-12-enabled.configuration-3-outlined .container {
+  border-color: var(--m-3syslightoutline);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.state-12-focused.configuration-3-outlined .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.state-12-focused.configuration-3-filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.configuration-3-filled.state-12-disabled .container {
+  background-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.configuration-3-tonal.state-12-enabled .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.configuration-3-filled.state-12-hovered .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.state-12-pressed.configuration-3-outlined .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.state-12-pressed.configuration-3-filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.configuration-3-tonal.state-12-disabled .container {
+  background-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.state-12-pressed.configuration-3-standard .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.configuration-3-tonal.state-12-focused .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-012);
+}
+
+.icon-button.state-12-hovered.configuration-3-standard .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-008);
+}
+
+.icon-button.configuration-3-tonal.state-12-pressed .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-012);
+}
+
+.icon-button.configuration-3-tonal.state-12-hovered .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-008);
+}
+
+.icon-button.configuration-3-outlined.state-12-hovered .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-008);
+}
+
+.icon-button.state-12-focused.configuration-3-standard .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.state-12-focused.configuration-3-outlined .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.state-12-focused.configuration-3-filled .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-primaryopacity-012);
+}
+
+.icon-button.configuration-3-filled.state-12-hovered .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-primaryopacity-008);
+}
+
+.icon-button.state-12-pressed.configuration-3-outlined .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.state-12-pressed.configuration-3-filled .icons-settings-wrapper {
+  background-color: var(--m3state-layerslighton-primaryopacity-012);
+}

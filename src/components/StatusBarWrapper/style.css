@@ -1,0 +1,12 @@
+.status-bar-wrapper {
+  height: 44px;
+  width: 375px;
+}
+
+.status-bar-wrapper .status-bar-instance {
+  width: unset !important;
+}
+
+.status-bar-wrapper .design-component-instance-node {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/b65d37785f906b6b7f2edb5611692543/img/outline-2.svg) !important;
+}

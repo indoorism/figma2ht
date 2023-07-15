@@ -1,0 +1,111 @@
+.status-bar {
+  background-color: #ffffff;
+}
+
+.status-bar .element {
+  color: var(--colorsgreyscale-600);
+  font-family: var(--body-regular-3-font-family);
+  font-size: var(--body-regular-3-font-size);
+  font-style: var(--body-regular-3-font-style);
+  font-weight: var(--body-regular-3-font-weight);
+  left: 26px;
+  letter-spacing: var(--body-regular-3-letter-spacing);
+  line-height: var(--body-regular-3-line-height);
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.status-bar .frame {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  height: 12px;
+  left: 293px;
+  position: absolute;
+  top: 16px;
+  width: 66px;
+}
+
+.status-bar .reception {
+  height: 10px;
+  min-width: 14px;
+  position: relative;
+}
+
+.status-bar .wifi {
+  height: 11px;
+  min-width: 15px;
+  position: relative;
+}
+
+.status-bar .battery {
+  height: 12px;
+  min-width: 25px;
+  position: relative;
+}
+
+.status-bar .overlap-group {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/b65d37785f906b6b7f2edb5611692543/img/outline-1.svg);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 24px;
+}
+
+.status-bar .rectangle {
+  background-color: var(--colorsgreyscale-600);
+  border-radius: 1px;
+  height: 8px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 13px;
+}
+
+.status-bar .div {
+  height: 24px;
+  left: 259px;
+  position: relative;
+  width: 85px;
+}
+
+.status-bar .img {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 16px;
+}
+
+.status-bar .reception-2 {
+  height: 12px;
+  left: 28px;
+  position: absolute;
+  top: 6px;
+  width: 12px;
+}
+
+.status-bar .text-wrapper {
+  color: var(--colorsgreyscale-600);
+  font-family: var(--body-regular-5-font-family);
+  font-size: var(--body-regular-5-font-size);
+  font-style: var(--body-regular-5-font-style);
+  font-weight: var(--body-regular-5-font-weight);
+  left: 52px;
+  letter-spacing: var(--body-regular-5-letter-spacing);
+  line-height: var(--body-regular-5-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.status-bar.iphone {
+  height: 44px;
+  position: relative;
+  width: 375px;
+}
+
+.status-bar.android {
+  height: 24px;
+  width: 360px;
+}
